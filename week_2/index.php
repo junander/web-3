@@ -21,6 +21,7 @@
             <li><a href="conditionals.php">Conditionals</a></li>
             <li><a href="switch.php">Switch</a></li>
             <li><a href="array.php">Arrays</a></li>
+            <li><a href="functions.php">Functions</a></li>
         </ul>
 
     </body>
