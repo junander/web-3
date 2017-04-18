@@ -1,0 +1,120 @@
+/*
+Theme Name:     Web 3 
+Theme URI:      https://openlab.citytech.cuny.edu/web-3-spring-2017/
+Description:    Web 3 Theme
+Author:         Joe Unander
+Author URI:     http: //www.early-adopter.com
+Version:        0.1.0
+
+-------------------------------------------------------------- */
+
+.gray-background{
+    background: #a9a9a9;
+}
+
+div#logo h1 {
+    width:300px;
+    height:200px;
+    margin:0;
+    padding:0;
+}
+
+div#logo h1 a {
+    height:0;
+    width:300px;
+    display:block;
+    padding:200px 0 0 0;
+    margin:0;
+    background-color: #ffffff;
+    background-image: url('images/logo.jpg');
+    overflow:hidden;
+}
+
+div.wrap {
+    clear:both;
+}
+
+div#logo {
+    width:300px;
+    height:200px;
+    margin:20px;
+    float:left;
+    background-color:#eeeee;
+    padding:0;
+}
+
+nav{
+    width:60%;
+    margin:25px;
+    float:right;
+}
+
+nav div ul {
+    width:90%;
+    min-width:1000px;
+    background-color:#999999;
+    height:50px;
+    margin:0px 20px 0px 20px;
+
+}
+
+nav div ul li {
+    height:30px;
+    width:120px;
+    background-color:#ffffff;
+    float:left;
+    list-style-type:none;
+    padding:10px;
+    border:1px solid #eeeeee;
+}
+
+nav div ul li:hover {
+    background-color:#999999;
+}
+
+nav div ul li a {
+    text-decoration:none;
+}
+
+nav div ul li ul {
+    display:none;
+
+}
+
+nav div ul li:hover ul.sub-menu {
+    display:block;
+    width:200px;
+    min-width:200px;
+    margin:10px 0px 10px 0;
+    padding:10px;
+    height:auto;
+    position:relative;
+    left: -20px;
+    background-color:#999999;
+    box-shadow: 3px 3px 4px #555555;
+    z-index: 3333;
+}
+
+nav div ul li#menu-item-251 {
+    width:400px;
+}
+
+nav div ul li:hover ul li {
+    display:block;
+    float:none;
+}
+
+nav div ul li:hover ul li a {
+    text-decoration:none;
+    background-color:#eeeeee;
+    display:block;
+}
+
+.goth{
+    background: #000;
+    color: #fff;
+}
+.goth p,
+.goth a{
+    color: #fff;
+}
