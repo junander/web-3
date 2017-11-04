@@ -1,0 +1,147 @@
+/*
+Theme Name:     Web 3 
+Theme URI:      https://openlab.citytech.cuny.edu/web-3-spring-2017/
+Description:    Web 3 Theme
+Author:         Joe Unander
+Author URI:     http://www.early-adopter.com
+Version:        0.1.0
+-------------------------------------------------------------- */
+/* styles for category.php */
+
+article.catarchivearticle {
+background-color:#aabbbb;
+}
+
+ul.archivelist {
+list-style-type: none;
+background-color:#ddcccc;
+}
+
+ul.archivelist li {
+padding-bottom: 30px;
+}
+
+div.rightcol {
+float:left;
+width:60%;
+padding:1%;
+background-color:#ffaaaa;
+}
+div.leftcol {
+float:left;
+width:20%;
+padding:1% 1% 1% 0;
+background-color:#aaffbb;
+}
+
+div.excerptdiv {
+width:100%;
+float:none;
+clear:both;
+background-color:#aabbff;
+}
+
+/* end styles for category.php */
+
+/* style for single post template */
+div#authorinfo {
+width:50%;
+background-color:#777777;
+color:#ffffff;
+padding:20px;
+}
+
+div#contentbox {
+width: 85%;
+background-color: #aaaaff;
+}
+
+div#catlist {
+background-color:#eeeeee;
+}
+
+h3#authorname {
+font-size: 13px;
+font-style: italic;
+color:#999900;
+}
+
+/* end style for single post template */
+
+/* style main menu */
+nav{
+width:100%;
+margin:25px;
+
+}
+
+nav ul {
+width:90%;
+min-width:1000px;
+background-color:#999999;
+height:50px;
+margin:0px 20px 0px 20px;
+
+}
+
+nav ul li {
+height:30px;
+width:120px;
+background-color:#ffffff;
+float:left;
+list-style-type:none;
+padding:10px;
+border:1px solid #eeeeee;
+}
+
+nav ul li:hover {
+background-color:#999999;
+}
+
+nav ul li a {
+text-decoration:none;
+}
+
+nav ul li ul {
+display:none;
+
+}
+
+nav ul li:hover ul.sub-menu {
+display:block;
+width:200px;
+min-width:200px;
+margin:10px 0px 10px 0;
+padding:10px;
+height:auto;
+position:relative;
+left: -20px;
+background-color:#999999;
+box-shadow: 3px 3px 4px #555555;
+z-index: 3333;
+}
+
+nav ul li:hover ul li {
+display:block;
+float:none;
+}
+
+nav ul li:hover ul li a {
+text-decoration:none;
+background-color:#eeeeee;
+display:block;
+}
+
+/* end style main menu */
+#altPosts{
+ background: black;
+}
+#altPosts2{
+ background: purple;
+}
+
+.altPosts p,
+.altPosts h2,
+.altPosts a{
+ color: white;
+}
