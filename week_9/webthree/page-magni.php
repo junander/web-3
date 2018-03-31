@@ -1,10 +1,10 @@
-<?php /* Template Name: Demo Page Template */ get_header(); ?>
+<?php get_header(); ?>
 
-<main role="main">
+<main role="main" class="red-background">
 	<!-- section -->
 	<section>
 
-		<h1>
+		<h1>Really Cool Page:
 			<?php the_title(); ?>
 		</h1>
 

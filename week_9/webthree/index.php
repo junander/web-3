@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the home/index page.
  * This template will also be called in any case where the Wordpress engine 
@@ -14,18 +15,22 @@ get_header();
         </header>
     <?php else : ?>
         <header class="page-header">
-            <h2 class="page-title"><?php _e('Posts', 'twentyseventeen'); ?></h2>
+            <h2 class="page-title"><?php _e('Posts', 'web3'); ?></h2>
         </header>
     <?php endif; ?>
 
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
 
-            <?php if (have_posts()): ?>
-            
-                <?php the_content(); ?>
+            <?php if (have_posts()) : ?>
 
-            <?php else: ?>
+                <?php while (have_posts()) : the_post(); ?>
+            
+                    <?php the_content(); ?>
+
+                <?php endwhile; ?>
+
+            <?php else : ?>
 
                 <p>Nothing to see here.</p>
 

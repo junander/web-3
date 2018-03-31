@@ -4,7 +4,7 @@
 	<!-- section -->
 	<section>
 
-		<h1>
+		<h1>Demo Page Template:
 			<?php the_title(); ?>
 		</h1>
 

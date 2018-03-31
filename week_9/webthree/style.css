@@ -6,8 +6,13 @@ Author:         Joe Unander
 Author URI:     http: //www.early-adopter.com
 Version:        0.1.0
 -------------------------------------------------------------- */
-
+#logo{
+    max-width: 100px;
+}
 #page{
     max-width: 1200px;
     margin: 0 auto;
+}
+.red-background{
+    background: #900;
 }

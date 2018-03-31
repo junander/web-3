@@ -1,10 +1,10 @@
-<?php /* Template Name: Demo Page Template */ get_header(); ?>
+<?php get_header(); ?>
 
 <main role="main">
 	<!-- section -->
 	<section>
 
-		<h1>
+		<h1>Really Cool Page:
 			<?php the_title(); ?>
 		</h1>
 
@@ -13,7 +13,7 @@
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			<?php the_content(); ?>
+			<?php the_excerpt(); ?>
 
 			<?php comments_template('', true); // Remove if you don't want comments ?>
 

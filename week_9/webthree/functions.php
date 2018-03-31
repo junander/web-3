@@ -8,7 +8,8 @@
  * The proper way to add stylesheets or javascript files to a WordPress theme is via the enqueue system
  * Learn more: http://code.tutsplus.com/articles/how-to-include-javascript-and-css-in-your-wordpress-themes-and-plugins--wp-24321
  */
-function web3_enqueues() {
+function web3_enqueues()
+{
 
     /**Bootstrap CSS */
     wp_register_style('bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', array(), '4.0.0', 'all');
