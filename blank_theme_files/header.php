@@ -15,8 +15,8 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<!-- container-fluid -->
-		<div class="container-fluid">
+		<!-- wrapper -->
+		<div class="wrapper">
 
 			<!-- header -->
 			<header class="header clear" role="banner">
