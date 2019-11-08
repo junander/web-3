@@ -65,6 +65,12 @@
 
                 </section>
                 <!-- /section -->
+
+                <div class="navigation pagination">
+                    <?php
+                    the_posts_pagination();
+                    ?>
+                </div>
             </main>
         </div>
         <div class="col-sm-3">
