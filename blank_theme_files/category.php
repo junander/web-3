@@ -70,6 +70,26 @@
 
                 </section>
                 <!-- /section -->
+
+                <div class="navigation pagination">
+                    <?php
+                    the_posts_pagination(
+                        array(
+                            'mid_size' => 2,
+                            'prev_text' => sprintf(
+                                '%s <span class="nav-prev-text">%s</span>',
+                                twentynineteen_get_icon_svg('chevron_left', 22),
+                                __('Newer posts', 'twentynineteen')
+                            ),
+                            'next_text' => sprintf(
+                                '<span class="nav-next-text">%s</span> %s',
+                                __('Older posts', 'twentynineteen'),
+                                twentynineteen_get_icon_svg('chevron_right', 22)
+                            ),
+                        )
+                    );
+                    ?>
+                </div>
             </main>
         </div>
         <div class="col-sm-3">
