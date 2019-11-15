@@ -1,0 +1,56 @@
+/*
+Theme Name:     Web 3 Lecture Theme 
+Theme URI:      http://web3.joeunander.com/
+Description:    The custom theme I am making in class in order to demonstrate key WordPress concepts.
+Author:         Joe Unander
+Author URI:     https://early-adopter.com/
+Version:        0.0.1
+-------------------------------------------------------------- */
+
+.purple-background {
+  background: purple;
+  color: white;
+}
+.blue-background {
+  background: azure;
+}
+
+.gold-background{
+    background: gold;
+}
+
+.orange-background{
+    background: orange;
+}
+
+/**nice dropdown menus**/
+.menu-item-has-children {
+  position: relative;
+}
+
+.sub-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #ddd;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+}
+
+.menu-item-has-children:focus .sub-menu,
+.menu-item-has-children:focus-within .sub-menu,
+.menu-item-has-children:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
